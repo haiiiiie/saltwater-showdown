@@ -28,7 +28,7 @@
     <script>
         async function loadGroups() {
             try {
-                const response = await fetch('https://YOUR_BACKEND_URL/load');
+                const response = await fetch('https://saltwater-showdown.onrender.com/load');
                 if (response.ok) {
                     const groups = await response.json();
                     renderGroups(groups);
@@ -75,7 +75,7 @@
                 return {name: groupTitle, members};
             });
             try {
-                const response = await fetch('https://YOUR_BACKEND_URL/save', {
+                const response = await fetch('https://saltwater-showdown.onrender.com/save', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'

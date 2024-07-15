@@ -1,0 +1,6 @@
+[
+    {"name": "Group 1", "members": ["Alice", "Bob", "Charlie", "Dave"]},
+    {"name": "Group 2", "members": ["Eve", "Frank", "Grace", "Hank"]},
+    {"name": "Group 3", "members": ["Ivy", "Jack", "Kate", "Leo"]},
+    {"name": "Group 4", "members": ["Mia", "Nick", "Olive", "Pete"]}
+]

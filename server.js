@@ -1,10 +1,13 @@
 const express = require('express');
+const cors = require('cors'); // Import the cors package
 const fs = require('fs');
 const path = require('path');
 const app = express();
 const PORT = process.env.PORT || 3000;
 const FILE_PATH = path.join(__dirname, 'groups.json');
 
+// Use the cors middleware
+app.use(cors());
 app.use(express.json());
 
 app.get('/load', (req, res) => {
